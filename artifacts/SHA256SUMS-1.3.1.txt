@@ -1,0 +1,3 @@
+cde1b8c5ca0840950aa46d77995b0bd9ffa4ff3bd2b82e902601ad5062335e69  LockIN_1.3.1_x64-setup.exe
+62550e42faa5ff24a65edd09c4f7819ae069d4e4b95c576acc3ffd1f28b9f14d  LockIN-1.3.1.exe
+5100602a009578c702fc08518efdfcd4cfdaf3c600ab2b76a8faeec791635ab3  LockIN-Chrome-extension-1.3.1.zip

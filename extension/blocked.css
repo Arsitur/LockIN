@@ -1,0 +1,62 @@
+:root {
+  --accent: #d8edab;
+  --on-accent: #202b15;
+  --ink: color-mix(in srgb, var(--accent) 80%, white);
+  --bg: color-mix(in srgb, var(--accent) 3%, #131510);
+  --text: #f1f1e8;
+  --muted: #a5ae9c;
+}
+:root.light {
+  --ink: color-mix(in srgb, var(--accent) 35%, #253020);
+  --bg: color-mix(in srgb, var(--accent) 5%, #fafaf5);
+  --text: #252d21;
+  --muted: #6c7663;
+}
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 16px system-ui;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+main {
+  text-align: center;
+  padding: 35px;
+}
+.mark {
+  color: var(--ink);
+  font-size: 54px;
+}
+.eyebrow {
+  font-size: 10px;
+  letter-spacing: 2px;
+  color: var(--ink);
+  margin-top: 35px;
+}
+h1 {
+  font-size: 40px;
+  letter-spacing: -1.5px;
+  font-weight: 500;
+}
+p {
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.9;
+}
+button {
+  margin: 25px 0;
+  background: var(--accent);
+  color: var(--on-accent);
+  border: 0;
+  border-radius: 8px;
+  padding: 14px 20px;
+  cursor: pointer;
+  font-size: 14px;
+}
+small {
+  display: block;
+  font-size: 11px;
+  color: #76816d;
+}

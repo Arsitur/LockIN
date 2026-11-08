@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "categories": [
+    {
+      "id": "social",
+      "name": "Social media",
+      "color": "#c6b7f5",
+      "icon": "social"
+    },
+    {
+      "id": "entertainment",
+      "name": "Entertainment",
+      "color": "#e7b896",
+      "icon": "play"
+    },
+    {
+      "id": "shopping",
+      "name": "Shopping",
+      "color": "#a7cfbf",
+      "icon": "bag"
+    }
+  ],
+  "sites": [
+    {
+      "id": "instagram",
+      "name": "Instagram",
+      "domain": "instagram.com",
+      "categoryId": "social",
+      "enabled": true
+    },
+    {
+      "id": "x",
+      "name": "X / Twitter",
+      "domain": "x.com",
+      "categoryId": "social",
+      "enabled": true
+    },
+    {
+      "id": "reddit",
+      "name": "Reddit",
+      "domain": "reddit.com",
+      "categoryId": "social",
+      "enabled": true
+    },
+    {
+      "id": "tiktok",
+      "name": "TikTok",
+      "domain": "tiktok.com",
+      "categoryId": "social",
+      "enabled": true
+    },
+    {
+      "id": "youtube",
+      "name": "YouTube",
+      "domain": "youtube.com",
+      "categoryId": "entertainment",
+      "enabled": true
+    },
+    {
+      "id": "netflix",
+      "name": "Netflix",
+      "domain": "netflix.com",
+      "categoryId": "entertainment",
+      "enabled": false
+    },
+    {
+      "id": "twitch",
+      "name": "Twitch",
+      "domain": "twitch.tv",
+      "categoryId": "entertainment",
+      "enabled": true
+    },
+    {
+      "id": "amazon",
+      "name": "Amazon",
+      "domain": "amazon.com",
+      "categoryId": "shopping",
+      "enabled": false
+    }
+  ],
+  "schedules": [],
+  "session": null,
+  "history": [],
+  "settings": {
+    "theme": "dark",
+    "accent": "#d8edab",
+    "testMode": false,
+    "protection": {
+      "phraseEnabled": true,
+      "phrase": "I am choosing distraction over my goals.",
+      "steps": 2,
+      "waitMinutes": 1
+    }
+  }
+}

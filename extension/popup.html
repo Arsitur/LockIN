@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LockIN</title>
+    <link rel="stylesheet" href="popup-theme.css" />
+  </head>
+  <body>
+    <header>
+      <span class="popup-logo" aria-hidden="true"><i></i><b></b></span
+      ><strong>lock<span>in.</span></strong
+      ><span class="version">YOUR QUIET COMPANION</span>
+    </header>
+    <main>
+      <div id="status" class="status">
+        <span></span><b>Checking your connection</b>
+      </div>
+      <h1>A little less noise.<br /><em>A lot more you.</em></h1>
+      <p>Your desktop app sets the boundaries.<br />We keep them here.</p>
+      <div class="quick-add-panel">
+        <span class="quick-label">ADD THE WEBSITE YOU’RE ON</span
+        ><strong id="current-domain">Choose a website tab</strong>
+        <p id="quick-hint">
+          Then choose its category. Alt + Shift + L opens this popup.
+        </p>
+        <div id="quick-categories"></div>
+        <p id="quick-result" role="status"></p>
+      </div>
+      <section>
+        <div class="number" id="count">0</div>
+        <span>websites taking a little quiet time</span>
+        <div id="timer"></div>
+      </section>
+      <div id="domains"></div>
+      <p id="error" hidden></p>
+      <button id="reconnect">Reconnect to desktop <span>↗</span></button>
+      <button id="update-companion" class="update-button">
+        Update companion <span>↓</span>
+      </button>
+      <p id="update-status"></p>
+      <span id="companion-version" class="version-note"></span>
+      <div class="note">
+        Everything is controlled in your LockIN desktop app.<br />No
+        distractions. No extra switches.
+      </div>
+    </main>
+    <footer><span>✧</span> Local. Private. Yours.</footer>
+    <script type="module" src="popup.js"></script>
+  </body>
+</html>

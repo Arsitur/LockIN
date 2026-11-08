@@ -1,0 +1,18 @@
+{
+  "identifier": "com.lockin.verification",
+  "productName": "LockIN Verification",
+  "app": {
+    "windows": [
+      {
+        "label": "main",
+        "title": "LockIN verification",
+        "width": 1360,
+        "height": 960,
+        "minWidth": 800,
+        "minHeight": 650,
+        "center": true,
+        "dragDropEnabled": false
+      }
+    ]
+  }
+}
